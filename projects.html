@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sylvester Zhang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-links" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="research.html" class="nav-link">Research</a>
+                    <a href="publications.html" class="nav-link">Publications</a>
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                    <a href="experience.html" class="nav-link">Experience</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en" id="enBtn">EN</button>
+                    <button class="lang-btn" data-lang="zh" id="zhBtn">中</button>
+                </div>
+                
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="projects" class="page-section">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Projects</h1>
+                    <p class="page-subtitle">Innovative robotics and AI projects showcasing cutting-edge research</p>
+                </div>
+
+                <!-- Featured Projects -->
+                <div class="featured-projects">
+                    <h2>Featured Projects</h2>
+                    
+                    <div class="project-card featured">
+                        <div class="project-image">
+                            <div class="placeholder-image">🤖</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Collaborative Assembly Robot</h3>
+                            <p class="project-description">An AI-powered robotic system designed for human-robot collaboration in manufacturing environments. The robot can learn from human demonstrations and adapt to varying assembly tasks in real-time.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">ROS2</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Force Control</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                                <a href="#" class="project-link">Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card featured">
+                        <div class="project-image">
+                            <div class="placeholder-image">🚗</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Autonomous Navigation System</h3>
+                            <p class="project-description">A robust SLAM-based navigation system for mobile robots operating in dynamic environments. Features real-time path planning and obstacle avoidance capabilities.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">SLAM</span>
+                                <span class="tech-tag">LiDAR</span>
+                                <span class="tech-tag">Path Planning</span>
+                                <span class="tech-tag">ROS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">Code</a>
+                                <a href="#" class="project-link">Documentation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- All Projects Grid -->
+                <div class="all-projects">
+                    <h2>All Projects</h2>
+                    
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h4>Multi-Robot Coordination</h4>
+                                <span class="project-status ongoing">Ongoing</span>
+                            </div>
+                            <p>Distributed algorithm for coordinating multiple autonomous robots in search and rescue operations.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Swarm Robotics</span>
+                                <span class="tech-tag">Distributed Systems</span>
+                                <span class="tech-tag">Communication Protocols</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">⭐ 45 stars</span>
+                                <span class="metric">🔧 Python</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h4>Tactile Perception System</h4>
+                                <span class="project-status completed">Completed</span>
+                            </div>
+                            <p>Advanced tactile sensing system for robotic manipulation of deformable objects using machine learning.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Tactile Sensing</span>
+                                <span class="tech-tag">Deep Learning</span>
+                                <span class="tech-tag">PyTorch</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">⭐ 32 stars</span>
+                                <span class="metric">🔧 Python/C++</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h4>Vision-Language Robot Interface</h4>
+                                <span class="project-status ongoing">Ongoing</span>
+                            </div>
+                            <p>Natural language interface for robot control using large language models and computer vision.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">LLM</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">⭐ 67 stars</span>
+                                <span class="metric">🔧 Python</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h4>Warehouse Automation Suite</h4>
+                                <span class="project-status completed">Completed</span>
+                            </div>
+                            <p>Complete automation solution for warehouse operations including inventory management and robotic picking.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Industrial Robotics</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">Database Systems</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">⭐ 89 stars</span>
+                                <span class="metric">🔧 Python/ROS</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h4>Real-time Object Detection</h4>
+                                <span class="project-status completed">Completed</span>
+                            </div>
+                            <p>High-performance object detection system optimized for real-time robotic applications.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">YOLO</span>
+                                <span class="tech-tag">Edge Computing</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">⭐ 156 stars</span>
+                                <span class="metric">🔧 Python/CUDA</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h4>Robotic Arm Simulator</h4>
+                                <span class="project-status completed">Completed</span>
+                            </div>
+                            <p>Physics-based simulation environment for testing robotic manipulation algorithms.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Simulation</span>
+                                <span class="tech-tag">Physics Engine</span>
+                                <span class="tech-tag">Control Systems</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">⭐ 78 stars</span>
+                                <span class="metric">🔧 C++/Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Statistics -->
+                <div class="project-stats">
+                    <h2>Project Impact</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <p>Open Source Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <p>GitHub Stars</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15</div>
+                            <p>Contributors</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5</div>
+                            <p>Industry Collaborations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 

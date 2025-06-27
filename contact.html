@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sylvester Zhang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-links" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="research.html" class="nav-link">Research</a>
+                    <a href="publications.html" class="nav-link">Publications</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="experience.html" class="nav-link">Experience</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </div>
+                
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en" id="enBtn">EN</button>
+                    <button class="lang-btn" data-lang="zh" id="zhBtn">中</button>
+                </div>
+                
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="contact" class="page-section">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Contact</h1>
+                    <p class="page-subtitle">Let's connect and collaborate on exciting robotics projects</p>
+                </div>
+
+                <div class="contact-content">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">📧</div>
+                            <h3>Email</h3>
+                            <p>sylvester.zhang@cmu.edu</p>
+                            <a href="mailto:sylvester.zhang@cmu.edu" class="contact-link">Send Email</a>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">📍</div>
+                            <h3>Office</h3>
+                            <p>Robotics Institute<br>Carnegie Mellon University<br>5000 Forbes Avenue<br>Pittsburgh, PA 15213</p>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">📞</div>
+                            <h3>Phone</h3>
+                            <p>+1 (412) 268-7000</p>
+                            <a href="tel:+14122687000" class="contact-link">Call</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Send a Message</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="research">Research Collaboration</option>
+                                    <option value="speaking">Speaking Engagement</option>
+                                    <option value="consulting">Consulting Opportunity</option>
+                                    <option value="academic">Academic Discussion</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <div class="btn-loader"></div>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Social Media & Professional Links -->
+                    <div class="social-section">
+                        <h2>Connect with Me</h2>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/sylvester-zhang" class="social-link" target="_blank">
+                                <div class="social-icon">💼</div>
+                                <span>LinkedIn</span>
+                            </a>
+
+                            <a href="https://github.com/sylvester-zhang" class="social-link" target="_blank">
+                                <div class="social-icon">💻</div>
+                                <span>GitHub</span>
+                            </a>
+
+                            <a href="https://scholar.google.com/citations?user=xyz" class="social-link" target="_blank">
+                                <div class="social-icon">🎓</div>
+                                <span>Google Scholar</span>
+                            </a>
+
+                            <a href="https://orcid.org/0000-0000-0000-0000" class="social-link" target="_blank">
+                                <div class="social-icon">🔬</div>
+                                <span>ORCID</span>
+                            </a>
+
+                            <a href="https://researchgate.net/profile/sylvester-zhang" class="social-link" target="_blank">
+                                <div class="social-icon">📊</div>
+                                <span>ResearchGate</span>
+                            </a>
+
+                            <a href="https://twitter.com/sylvester_robotics" class="social-link" target="_blank">
+                                <div class="social-icon">🐦</div>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Office Hours & Availability -->
+                    <div class="availability-section">
+                        <h2>Office Hours & Availability</h2>
+                        <div class="availability-info">
+                            <div class="availability-item">
+                                <h4>Research Meetings</h4>
+                                <p>Tuesdays & Thursdays, 2:00 PM - 4:00 PM</p>
+                                <p>Book through my calendar system</p>
+                            </div>
+
+                            <div class="availability-item">
+                                <h4>Student Office Hours</h4>
+                                <p>Wednesdays, 1:00 PM - 3:00 PM</p>
+                                <p>Open door policy for all students</p>
+                            </div>
+
+                            <div class="availability-item">
+                                <h4>Industry Consultations</h4>
+                                <p>By appointment only</p>
+                                <p>Please email with specific requirements</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Research Interests for Collaboration -->
+                    <div class="collaboration-section">
+                        <h2>Research Collaboration Interests</h2>
+                        <div class="collaboration-areas">
+                            <div class="collaboration-area">
+                                <div class="area-icon">🤖</div>
+                                <h4>Human-Robot Interaction</h4>
+                                <p>Exploring natural and intuitive ways for humans and robots to collaborate effectively</p>
+                            </div>
+
+                            <div class="collaboration-area">
+                                <div class="area-icon">🧠</div>
+                                <h4>AI for Robotics</h4>
+                                <p>Integrating machine learning and AI techniques into robotic systems</p>
+                            </div>
+
+                            <div class="collaboration-area">
+                                <div class="area-icon">🏭</div>
+                                <h4>Industrial Applications</h4>
+                                <p>Developing practical robotic solutions for manufacturing and industry</p>
+                            </div>
+
+                            <div class="collaboration-area">
+                                <div class="area-icon">🔬</div>
+                                <h4>Interdisciplinary Research</h4>
+                                <p>Collaborating across fields including psychology, engineering, and computer science</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Enhanced contact form functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            const submitBtn = contactForm.querySelector('.submit-btn');
+            const btnText = submitBtn.querySelector('span');
+            const btnLoader = submitBtn.querySelector('.btn-loader');
+
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Show loading state
+                submitBtn.classList.add('loading');
+                btnText.textContent = 'Sending...';
+                
+                // Get form data
+                const formData = new FormData(contactForm);
+                const data = {
+                    name: formData.get('name'),
+                    email: formData.get('email'),
+                    subject: formData.get('subject'),
+                    message: formData.get('message')
+                };
+                
+                // Simulate form submission
+                setTimeout(() => {
+                    // Reset loading state
+                    submitBtn.classList.remove('loading');
+                    btnText.textContent = 'Send Message';
+                    
+                    // Show success message
+                    showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+                    
+                    // Reset form
+                    contactForm.reset();
+                }, 2000);
+            });
+
+            function showNotification(message, type) {
+                // Remove existing notifications
+                const existingNotifications = document.querySelectorAll('.notification');
+                existingNotifications.forEach(notification => notification.remove());
+                
+                // Create notification element
+                const notification = document.createElement('div');
+                notification.className = `notification ${type}`;
+                notification.textContent = message;
+                
+                // Add to page
+                document.body.appendChild(notification);
+                
+                // Show notification
+                setTimeout(() => {
+                    notification.classList.add('show');
+                }, 100);
+                
+                // Hide notification after 5 seconds
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+                }, 5000);
+            }
+        });
+    </script>
+</body>
+</html> 
